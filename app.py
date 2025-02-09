@@ -47,5 +47,5 @@ if btn:                        #When this button is clicked, this script calls u
 
 st.write('')
 st.write('')
-st.markdown('<span>All code can be found here <a href="https://github.com/Shriket/Text-Classification.git">Text Classification</a></span>',unsafe_allow_html=True)
+st.markdown('<span>All code can be found here <a href="https://github.com/Shriket/Text-Classification-Model-Voice">Text Classification Model</a></span>',unsafe_allow_html=True)
 st.markdown('Created By Shriket')
