@@ -3,7 +3,7 @@ import pickle
 
 st.set_page_config(page_title="Text Classification" , page_icon=':flag-pa:',layout='wide')
 st.write('')
-st.title('☆ Voice Classification ☆')
+st.title('☆ Active-Passive Voice Classification ☆')
 st.markdown('<style>div.block-container{padding-top:1rem;}</style>',unsafe_allow_html=True)
 
 ###################################################################################################
@@ -32,7 +32,7 @@ st.markdown('#### 💎Text Classification for Active vs. Passive Voice Detection
 
 st.write('')
 st.write('')
-txt = st.text_area('Write Your Sentence')
+txt = st.text_area('Write Your Sentence Here')
 
 st.write('')
 st.write('')
@@ -49,4 +49,4 @@ if btn:                        #When this button is clicked, this script calls u
 st.write('')
 st.write('')
 st.markdown('<span>All code can be found here <a href="https://github.com/Shriket/Text-Classification-Model-Voice">Text Classification Model</a></span>',unsafe_allow_html=True)
-st.markdown('Created By Shriket')
+st.markdown('Created By <a href="https://github.com/Shriket">Shriket</a></span>',unsafe_allow_html=True')
